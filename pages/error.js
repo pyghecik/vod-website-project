@@ -1,8 +1,13 @@
 import React, { useEffect } from "react";
 
-const error = () => {
+const Error = () => {
   useEffect(() => {
     window.onbeforeunload = function () {
+      setTimeout(() => {
+        window.location.replace("/");
+      }, 5000);
+    };
+    return () => {
       setTimeout(() => {
         window.location.replace("/");
       }, 5000);
@@ -21,4 +26,4 @@ const error = () => {
   );
 };
 
-export default error;
+export default Error;
