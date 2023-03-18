@@ -7,11 +7,6 @@ const error = () => {
         window.location.replace("/");
       }, 5000);
     };
-    return () => {
-      setTimeout(() => {
-        window.location.replace("/");
-      }, 5000);
-    };
   }, []);
 
   return (

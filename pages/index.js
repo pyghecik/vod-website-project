@@ -397,9 +397,7 @@ export default function Home() {
             <div className=" flex m-10">
               {/*Logo*/}
               <div className=" cursor-pointer drop-shadow-md mr-10 text-2xl border-2 border-slate-900 bg-white w-72 h-12 ">
-                <h1 className=" p-1 text-center">
-                  <a href="/">Simplly</a>
-                </h1>
+                <h1 className=" p-1 text-center">Simplly</h1>
               </div>
               {/*Search label*/}
               <form className=" drop-shadow-md">
