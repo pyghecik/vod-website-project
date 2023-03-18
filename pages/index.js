@@ -87,7 +87,7 @@ export default function Home() {
   if (leave === true) {
     showLeave = (
       <Link
-        href="/error"
+        href="/Error"
         className=" absolute text-center cursor-pointer drop-shadow-md ml-2 mt-16 p-1 text-2xl border-2 border-slate-900 bg-white w-36 h-12"
       >
         Quit
